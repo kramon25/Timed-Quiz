@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: lightblue;
+}
+
+/*****************************/
+/* HEADER */
+/*****************************/
+
+.head div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding-top: 5%;
+  justify-content: space-between;
+}
+.head p {
+  margin-right: 10%;
+}
+
+/*****************************/
+/* START */
+/*****************************/
+
+.instruction {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+div #start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0;
+  line-height: 50px;
+}
+
+div #start {
+  background-color: blueviolet;
+}
+
+/* ****************************/
+/* QUESTIONS*/
+/**************************** */
+
+.hide {
+  display: none;
+}
+
+.hidden1 {
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+  /* display: none; */
+}
+
+.hidden1 h2 {
+  font-size: 25px;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.btn {
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+#next-btn {
+  background: blueviolet;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+/* ****************************/
+/* Second page Html*/
+/**************************** */
+
+.wrapper {
+  position: relative;
+}
+
+.name {
+  padding: 0.6rem 1.2rem;
+}
+
+.save-btn {
+  background: blueviolet;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* ****************************/
+/* Javascript*/
+/**************************** */
+
+.correct {
+  background: lightgreen;
+}
+
+.incorrect {
+  background-color: lightcoral;
+}

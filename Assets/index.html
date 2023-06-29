@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Timed Quiz</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <header class="head">
+    <div>
+      <a class="highscore" href="highscore.html">View High Scores</a>
+      <p class="timer">Time:</p>
+    </div>
+  </header>
+
+  <body>
+    <div class="main">
+      <p class="instruction">
+        <!-- When you click the Start Quiz button a timer will start and you will be
+        presented with a question. When you answer a question, you will be
+        presented with another question. When you answer a question incorrectly,
+        time is subtracted from the clock. When all questions are answered or
+        the timer reaches 0, then the game is over. When the game is over then
+        you can save your initials and your score. -->
+      </p>
+      <button id="start" href="#">Start Quiz</button>
+    </div>
+
+    <div class="hidden1 hide">
+      <h2 id="quest1">Question 1</h2>
+      <div id="ans-btns">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+      <div class="wrapper">
+        <input type="text" class="initials" placeholder="Initials" />
+      </div>
+      <button id="next-btn">Next</button>
+    </div>
+    <div id="end-quiz" class="hide"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
